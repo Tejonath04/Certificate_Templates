@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-//const dbURI="mongodb+srv://Teju:0100@tempcert.gdi5gr6.mongodb.net/tempCert-backend?retryWrites=true&w=majority";
 const dbURI="mongodb://127.0.0.1:27017/CertTemp";
 
 const connectDb = async () => {
